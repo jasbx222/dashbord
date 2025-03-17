@@ -11,7 +11,7 @@ const NavHeader = () => {
                 <span>jassim</span>
             </div>
             <div className="search">
-                <input className='search-input' type="search" placeholder='ابحث هنا...' />
+           {""}
             </div>
         </div>
         <div className='controll'>

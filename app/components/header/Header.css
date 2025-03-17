@@ -20,18 +20,7 @@
     border-radius: 50%;
 }
 
-@media screen and (max-width:786px) {
-    .header {
-        width: 400px;
 
-
-    }
-
-    .text {
-        width: 100px;
-    }
-
-}
 
 .nav-header{
     display: flex;
@@ -43,21 +32,7 @@
     display: flex;
     justify-content: space-evenly;
 }
-.search{
-    margin: 5px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-.search-input{
-   padding: 5px;
-   border-radius: 10px;
-   text-align: center;
-  box-shadow: 5px  0px 5px rgba(0, 0, 0, 0.329);
-margin-left: 10px;
-border: 2px solid #A0AEC0;
 
-}
 
 .icons-user{
     display: flex;
@@ -65,8 +40,26 @@ border: 2px solid #A0AEC0;
     align-items: center;
     gap: 10px;
     color: #A0AEC0;
+    margin: 5px;
+    
 }
 .controll{
     color:#A0AEC0;
     margin-right: 5px;
+}
+
+@media screen and (max-width:786px) {
+    .header {
+        width: 400px;
+
+
+    }
+
+    .text {
+        width: 100px;
+    }
+    .nav-header{
+      display: none;
+    }
+    
 }

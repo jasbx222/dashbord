@@ -74,6 +74,8 @@ export const Hero = () => {
                 <span>123</span>
             </div>
         </div>
+        
+
     </div>
   )
 }
